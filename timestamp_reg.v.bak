@@ -1,0 +1,22 @@
+//This is a 32-bit counter that is used to keep track of nanoseconds
+//between GPS PPS signal
+module timestamp_reg (
+   input clock, output reg [31:0] nano_timer_out
+); 
+
+// Trigger on the rising edge of the system clock
+always @ (posedge clock)
+begin 
+ counter_out <= #1 counter_out + 1;
+end 
+endmodule
+
+module regfile4x16a
+  (input clk,
+   input write,
+   input [2:0] wrAddr,
+   input [15:0] wrData,
+   input [2:0] rdAddrA,
+   output [15:0] rdDataA,
+   input [2:0] rdAddrB,
+   output [15:0] rdDataB);

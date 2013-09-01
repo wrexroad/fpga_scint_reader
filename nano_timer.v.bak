@@ -1,0 +1,8 @@
+//This is a 32-bit counter that is used to keep track of nanoseconds
+//between GPS PPS signal
+module nano_timer (input clock , output reg [31:0] nano_timer_out); 
+always @ (posedge clock)// on positive clock edge
+begin 
+ counter_out <= #1 counter_out + 1;// increment counter
+end 
+endmodule// end of module counter
