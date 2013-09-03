@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 16 184 184 200)
+	(rect 16 0 184 16)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "ch1" (rect 5 0 25 11)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 208 184 224)
+	(rect 16 160 184 176)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "ch2" (rect 5 0 25 11)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 232 184 248)
+	(rect 16 312 184 328)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "ch3" (rect 5 0 25 11)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 256 184 272)
+	(rect 16 472 184 488)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "ch4" (rect 5 0 25 11)(font "Arial" ))
 	(pt 168 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 64 184 80)
+	(rect 16 -72 184 -56)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 5 0 32 11)(font "Arial" ))
 	(pt 168 8)
@@ -100,123 +100,7 @@ applicable agreement for further details.
 	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
 )
 (symbol
-	(rect 368 160 624 240)
-	(text "timestamp_reg" (rect 5 0 79 11)(font "Arial" ))
-	(text "ch1_time_stamp" (rect 8 64 90 75)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "evnt" (rect 0 0 22 11)(font "Arial" ))
-		(text "evnt" (rect 21 27 43 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "nano_timer_out[31..0]" (rect 0 0 107 11)(font "Arial" ))
-		(text "nano_timer_out[31..0]" (rect 21 43 128 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 256 32)
-		(output)
-		(text "time_stamp[31..0]" (rect 0 0 88 11)(font "Arial" ))
-		(text "time_stamp[31..0]" (rect 161 27 249 38)(font "Arial" ))
-		(line (pt 256 32)(pt 240 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 240 64))
-	)
-)
-(symbol
-	(rect 368 248 624 328)
-	(text "timestamp_reg" (rect 5 0 79 11)(font "Arial" ))
-	(text "ch2_time_stamp" (rect 8 64 90 75)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "evnt" (rect 0 0 22 11)(font "Arial" ))
-		(text "evnt" (rect 21 27 43 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "nano_timer_out[31..0]" (rect 0 0 107 11)(font "Arial" ))
-		(text "nano_timer_out[31..0]" (rect 21 43 128 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 256 32)
-		(output)
-		(text "time_stamp[31..0]" (rect 0 0 88 11)(font "Arial" ))
-		(text "time_stamp[31..0]" (rect 161 27 249 38)(font "Arial" ))
-		(line (pt 256 32)(pt 240 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 240 64))
-	)
-)
-(symbol
-	(rect 368 336 624 416)
-	(text "timestamp_reg" (rect 5 0 79 11)(font "Arial" ))
-	(text "ch3_time_stamp" (rect 8 64 90 75)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "evnt" (rect 0 0 22 11)(font "Arial" ))
-		(text "evnt" (rect 21 27 43 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "nano_timer_out[31..0]" (rect 0 0 107 11)(font "Arial" ))
-		(text "nano_timer_out[31..0]" (rect 21 43 128 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 256 32)
-		(output)
-		(text "time_stamp[31..0]" (rect 0 0 88 11)(font "Arial" ))
-		(text "time_stamp[31..0]" (rect 161 27 249 38)(font "Arial" ))
-		(line (pt 256 32)(pt 240 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 240 64))
-	)
-)
-(symbol
-	(rect 368 424 624 504)
-	(text "timestamp_reg" (rect 5 0 79 11)(font "Arial" ))
-	(text "ch4_time_stamp" (rect 8 64 90 75)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "evnt" (rect 0 0 22 11)(font "Arial" ))
-		(text "evnt" (rect 21 27 43 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "nano_timer_out[31..0]" (rect 0 0 107 11)(font "Arial" ))
-		(text "nano_timer_out[31..0]" (rect 21 43 128 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 256 32)
-		(output)
-		(text "time_stamp[31..0]" (rect 0 0 88 11)(font "Arial" ))
-		(text "time_stamp[31..0]" (rect 161 27 249 38)(font "Arial" ))
-		(line (pt 256 32)(pt 240 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 240 64))
-	)
-)
-(symbol
-	(rect 368 40 576 120)
+	(rect 224 -96 432 -16)
 	(text "nano_timer" (rect 5 0 61 11)(font "Arial" ))
 	(text "nano_sec_timer" (rect 8 64 88 75)(font "Arial" ))
 	(port
@@ -238,7 +122,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 672 -64 848 128)
+	(rect 512 -64 688 128)
 	(text "fifo_32" (rect 68 0 116 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 177 26 188)(font "Arial" ))
 	(port
@@ -316,7 +200,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 856 96 1032 288)
+	(rect 696 96 872 288)
 	(text "fifo_32" (rect 68 0 116 16)(font "Arial" (font_size 10)))
 	(text "inst1" (rect 8 177 32 188)(font "Arial" ))
 	(port
@@ -394,7 +278,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 856 408 1032 600)
+	(rect 696 408 872 600)
 	(text "fifo_32" (rect 68 0 116 16)(font "Arial" (font_size 10)))
 	(text "inst2" (rect 8 177 32 188)(font "Arial" ))
 	(port
@@ -472,7 +356,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 672 248 848 440)
+	(rect 512 248 688 440)
 	(text "fifo_32" (rect 68 0 116 16)(font "Arial" (font_size 10)))
 	(text "inst3" (rect 8 177 32 188)(font "Arial" ))
 	(port
@@ -550,154 +434,101 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 184 264)
-	(pt 208 264)
-)
-(connector
-	(pt 184 240)
-	(pt 248 240)
-)
-(connector
-	(pt 184 216)
-	(pt 288 216)
-)
-(connector
-	(pt 184 72)
-	(pt 368 72)
-)
-(connector
-	(pt 576 72)
-	(pt 608 72)
+	(pt 512 -16)
+	(pt 456 -16)
 	(bus)
 )
 (connector
-	(pt 608 72)
-	(pt 608 136)
+	(pt 432 -64)
+	(pt 456 -64)
 	(bus)
 )
 (connector
-	(pt 328 208)
-	(pt 368 208)
+	(pt 456 456)
+	(pt 696 456)
 	(bus)
 )
 (connector
-	(pt 328 296)
-	(pt 368 296)
+	(pt 456 144)
+	(pt 696 144)
 	(bus)
 )
 (connector
-	(pt 328 384)
-	(pt 368 384)
+	(pt 184 8)
+	(pt 512 8)
+)
+(connector
+	(pt 184 168)
+	(pt 696 168)
+)
+(connector
+	(pt 456 -64)
+	(pt 456 -16)
 	(bus)
 )
 (connector
-	(pt 328 472)
-	(pt 368 472)
+	(pt 456 -16)
+	(pt 456 144)
 	(bus)
 )
 (connector
-	(pt 608 136)
-	(pt 328 136)
+	(pt 224 -64)
+	(pt 208 -64)
+)
+(connector
+	(pt 208 -64)
+	(pt 184 -64)
+)
+(connector
+	(pt 208 496)
+	(pt 696 496)
+)
+(connector
+	(pt 456 296)
+	(pt 512 296)
 	(bus)
 )
 (connector
-	(pt 184 192)
-	(pt 368 192)
+	(pt 208 336)
+	(pt 512 336)
 )
 (connector
-	(pt 208 264)
-	(pt 208 456)
-)
-(connector
-	(pt 208 456)
-	(pt 368 456)
-)
-(connector
-	(pt 248 368)
-	(pt 368 368)
-)
-(connector
-	(pt 248 240)
-	(pt 248 368)
-)
-(connector
-	(pt 288 216)
-	(pt 288 280)
-)
-(connector
-	(pt 288 280)
-	(pt 368 280)
-)
-(connector
-	(pt 328 136)
-	(pt 328 208)
+	(pt 456 144)
+	(pt 456 296)
 	(bus)
 )
 (connector
-	(pt 328 208)
-	(pt 328 296)
+	(pt 456 296)
+	(pt 456 456)
 	(bus)
 )
 (connector
-	(pt 328 296)
-	(pt 328 384)
-	(bus)
+	(pt 208 336)
+	(pt 208 496)
 )
 (connector
-	(pt 328 384)
-	(pt 328 472)
-	(bus)
+	(pt 512 320)
+	(pt 184 320)
 )
 (connector
-	(pt 624 192)
-	(pt 632 192)
-	(bus)
+	(pt 184 480)
+	(pt 696 480)
 )
 (connector
-	(pt 632 192)
-	(pt 632 -16)
-	(bus)
+	(pt 208 24)
+	(pt 512 24)
 )
 (connector
-	(pt 632 -16)
-	(pt 672 -16)
-	(bus)
+	(pt 208 -64)
+	(pt 208 24)
 )
 (connector
-	(pt 624 280)
-	(pt 640 280)
-	(bus)
+	(pt 208 24)
+	(pt 208 336)
 )
-(connector
-	(pt 640 280)
-	(pt 640 144)
-	(bus)
-)
-(connector
-	(pt 640 144)
-	(pt 856 144)
-	(bus)
-)
-(connector
-	(pt 624 368)
-	(pt 648 368)
-	(bus)
-)
-(connector
-	(pt 648 368)
-	(pt 648 296)
-	(bus)
-)
-(connector
-	(pt 648 296)
-	(pt 672 296)
-	(bus)
-)
-(connector
-	(pt 624 456)
-	(pt 856 456)
-	(bus)
-)
-(junction (pt 328 208))
-(junction (pt 328 296))
-(junction (pt 328 384))
+(junction (pt 456 -16))
+(junction (pt 456 296))
+(junction (pt 456 144))
+(junction (pt 208 -64))
+(junction (pt 208 336))
+(junction (pt 208 24))
