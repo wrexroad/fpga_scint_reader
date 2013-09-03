@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/warren/projects/fpga/fpga_scint_reader/simulation/modelsim
+vevent_trig
+!i10b 1
+!s100 BVT1TCJ4cZQMlEglg6dLG1
+IQLKEP<6?NPeoe:[BCIdVZ3
+VJ@c`KZ5AGXX=b=c<HHfH41
+Z1 d/home/warren/projects/fpga/fpga_scint_reader/simulation/modelsim
+w1378238626
+8/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v
+F/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1378239441.961785
+!s107 /home/warren/projects/fpga/fpga_scint_reader/event_trigger.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/fpga_scint_reader|/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+/home/warren/projects/fpga/fpga_scint_reader -O0
+vfifo_32
+I`KdI67Kd=<`h3FcShM27g3
+VPz_SlFbFm42E8dc2VhkZc3
+R1
+Z5 w1378235715
+8/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v
+F/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;XHXX2X<LfzBR]zQjmT6f3
+!s85 0
+!s108 1378239441.922513
+!s107 /home/warren/projects/fpga/fpga_scint_reader/fifo_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/fpga_scint_reader|/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v|
+!s101 -O0
+vnano_timer
+IS@nASW@EgcJo]IzzKB9^l0
+V`I_4XbM=ZC5W>G_0>iKc`2
+R1
+R5
+8/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v
+F/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 lHEobf4dCOKJak<Y2`N;Q2
+!s85 0
+!s108 1378239441.760303
+!s107 /home/warren/projects/fpga/fpga_scint_reader/nano_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/fpga_scint_reader|/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v|
+!s101 -O0

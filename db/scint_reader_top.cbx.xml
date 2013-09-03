@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="scint_reader_top">
+		<CBX_INST_ENTRY INSTANCE_NAME="|scint_reader_top|fifo_32:inst1|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_klj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|scint_reader_top|fifo_32:inst2|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_klj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|scint_reader_top|fifo_32:inst3|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_klj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|scint_reader_top|fifo_32:inst|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_klj1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

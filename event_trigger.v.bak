@@ -1,0 +1,12 @@
+// Trigger on event positive edge if the FIFO is not full
+
+module event_trig (input evnt, input wtfull, output wtreq); 
+always @ (posedge evnt)
+begin 
+   if(event && !wtfull)
+	   output = 1
+   else
+	   output = 0
+   end
+end 
+endmodule// end of module counter
