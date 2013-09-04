@@ -55,4 +55,6 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name QIP_FILE fifo_32.qip
 set_global_assignment -name VERILOG_FILE event_trigger.v
+set_global_assignment -name BDF_FILE edge_trigger.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE memory.bdf

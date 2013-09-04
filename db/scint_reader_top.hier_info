@@ -1,8 +1,8 @@
 |scint_reader_top
-pin_name3 <= event_trig:inst11.wtreq
-pin_name1 => event_trig:inst11.clk
-pin_name2 => event_trig:inst11.evnt
-pin_name4 => event_trig:inst11.wtfull
+pin_name3 <= edge_trigger:inst4.event_trig
+pin_name1 => edge_trigger:inst4.wrfull
+pin_name2 => edge_trigger:inst4.clk
+pin_name4 => edge_trigger:inst4.event
 ch1 => fifo_32:inst.wrreq
 clock => fifo_32:inst.wrclk
 clock => nano_timer:nano_sec_timer.clock
@@ -13,28 +13,18 @@ ch4 => fifo_32:inst2.wrreq
 ch3 => fifo_32:inst3.wrreq
 
 
-|scint_reader_top|event_trig:inst11
-clk => clk.IN1
-evnt => evnt.IN2
-wtfull => ~NO_FANOUT~
-wtreq <= <GND>
+|scint_reader_top|edge_trigger:inst4
+event_trig <= trig_test.DB_MAX_OUTPUT_PORT_TYPE
+wrfull => wrfull_inv.IN0
+event => trig_test.IN1
+event => FF:sig_ff.d
+clk => FF:sig_ff.clk
 
 
-|scint_reader_top|event_trig:inst11|FF:ff1
+|scint_reader_top|edge_trigger:inst4|FF:sig_ff
 clk => q~reg0.CLK
 d => q~reg0.DATAIN
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|scint_reader_top|event_trig:inst11|NOT_1:not1
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|scint_reader_top|event_trig:inst11|AND_1:and1
-a => f.IN0
-b => f.IN1
-f <= f.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |scint_reader_top|fifo_32:inst

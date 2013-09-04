@@ -6,29 +6,25 @@
 # vmap work rtl_work
 # Modifying /home/warren/tools/fpga/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+/home/warren/projects/fpga/fpga_scint_reader {/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v}
+# vlog -vlog01compat -work work +incdir+/home/warren/projects/fpga/scint_reader {/home/warren/projects/fpga/scint_reader/nano_timer.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module nano_timer
 # 
 # Top level modules:
 # 	nano_timer
-# vlog -vlog01compat -work work +incdir+/home/warren/projects/fpga/fpga_scint_reader {/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v}
+# vlog -vlog01compat -work work +incdir+/home/warren/projects/fpga/scint_reader {/home/warren/projects/fpga/scint_reader/fifo_32.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module fifo_32
 # 
 # Top level modules:
 # 	fifo_32
-# vlog -vlog01compat -work work +incdir+/home/warren/projects/fpga/fpga_scint_reader {/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v}
+# vlog -vlog01compat -work work +incdir+/home/warren/projects/fpga/scint_reader {/home/warren/projects/fpga/scint_reader/event_trigger.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FF
+# -- Compiling module AND_1
+# -- Compiling module NOT_1
 # -- Compiling module event_trig
 # 
 # Top level modules:
 # 	event_trig
 # 
-log
-# Active logfile is not in simulation mode
-list
-load scint_reader_top
-# couldn't load file "scint_reader_top": scint_reader_top: cannot open shared object file: No such file or directory
-load event_trigger.v
-# couldn't load file "event_trigger.v": event_trigger.v: cannot open shared object file: No such file or directory

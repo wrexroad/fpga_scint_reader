@@ -2,64 +2,127 @@ m255
 K3
 13
 cModel Technology
-Z0 d/home/warren/projects/fpga/fpga_scint_reader/simulation/modelsim
+Z0 d/home/warren/projects/fpga/scint_reader/simulation/modelsim
+vAND_1
+!i10b 1
+!s100 >B3FkVGE>K^]f548^khO73
+IgCIYgCWnNJ@A@>[E;U`T_0
+VKIUFmSfhlh@i2]`5nbP9`2
+Z1 d/home/warren/projects/fpga/scint_reader/simulation/modelsim
+Z2 w1378272017
+Z3 8/home/warren/projects/fpga/scint_reader/event_trigger.v
+Z4 F/home/warren/projects/fpga/scint_reader/event_trigger.v
+L0 8
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1378275148.080996
+Z7 !s107 /home/warren/projects/fpga/scint_reader/event_trigger.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/scint_reader|/home/warren/projects/fpga/scint_reader/event_trigger.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+/home/warren/projects/fpga/scint_reader -O0
+n@a@n@d_1
 vevent_trig
 !i10b 1
-!s100 BVT1TCJ4cZQMlEglg6dLG1
-IQLKEP<6?NPeoe:[BCIdVZ3
-VJ@c`KZ5AGXX=b=c<HHfH41
-Z1 d/home/warren/projects/fpga/fpga_scint_reader/simulation/modelsim
-w1378238626
-8/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v
-F/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v
-L0 3
-Z2 OV;L;10.1d;51
+!s100 6i5<[:clWNXTSSkA^n90<0
+IQ_O9l@5QjFFXhGmoECOc92
+V<I`eCM]GMe7kLIbN_n:hO1
+R1
+R2
+R3
+R4
+L0 18
+R5
 r1
 !s85 0
 31
-!s108 1378239441.961785
-!s107 /home/warren/projects/fpga/fpga_scint_reader/event_trigger.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/fpga_scint_reader|/home/warren/projects/fpga/fpga_scint_reader/event_trigger.v|
+R6
+R7
+R8
 !s101 -O0
-Z3 o-vlog01compat -work work -O0
-Z4 !s92 -vlog01compat -work work +incdir+/home/warren/projects/fpga/fpga_scint_reader -O0
+R9
+R10
+vFF
+!i10b 1
+!s100 HW;5S]@KVSaH:>ULVXJ=j1
+IAb6:k0PeSJEKSKf8FzS<J3
+VeN:K6PRd:WWLK=A;i:CR^1
+R1
+R2
+R3
+R4
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+n@f@f
 vfifo_32
-I`KdI67Kd=<`h3FcShM27g3
+ID?OD]7ScFTLg[`=ERG8m_2
 VPz_SlFbFm42E8dc2VhkZc3
 R1
-Z5 w1378235715
-8/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v
-F/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v
+w1378190941
+8/home/warren/projects/fpga/scint_reader/fifo_32.v
+F/home/warren/projects/fpga/scint_reader/fifo_32.v
 L0 39
-R2
+R5
 r1
 31
-R3
-R4
+R9
+R10
 !i10b 1
-!s100 ;XHXX2X<LfzBR]zQjmT6f3
+!s100 Eee_EYVoBBlAAMja]gef^1
 !s85 0
-!s108 1378239441.922513
-!s107 /home/warren/projects/fpga/fpga_scint_reader/fifo_32.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/fpga_scint_reader|/home/warren/projects/fpga/fpga_scint_reader/fifo_32.v|
+!s108 1378275148.025256
+!s107 /home/warren/projects/fpga/scint_reader/fifo_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/scint_reader|/home/warren/projects/fpga/scint_reader/fifo_32.v|
 !s101 -O0
 vnano_timer
-IS@nASW@EgcJo]IzzKB9^l0
+IliSYL:@Bj@9E:9j<0G[b:2
 V`I_4XbM=ZC5W>G_0>iKc`2
 R1
-R5
-8/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v
-F/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v
+w1377909508
+8/home/warren/projects/fpga/scint_reader/nano_timer.v
+F/home/warren/projects/fpga/scint_reader/nano_timer.v
 L0 3
-R2
+R5
 r1
 31
+R9
+R10
+!i10b 1
+!s100 Q36L61AdVXZzSMo6eFFfK1
+!s85 0
+!s108 1378275147.808494
+!s107 /home/warren/projects/fpga/scint_reader/nano_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/scint_reader|/home/warren/projects/fpga/scint_reader/nano_timer.v|
+!s101 -O0
+vNOT_1
+!i10b 1
+!s100 WR:mWj5BiUG?a]HTVZk4a3
+ImkagR90859M9SceajR4Ca1
+VFU=i1EiI06YiWa]YE?fl81
+R1
+R2
 R3
 R4
-!i10b 1
-!s100 lHEobf4dCOKJak<Y2`N;Q2
+L0 13
+R5
+r1
 !s85 0
-!s108 1378239441.760303
-!s107 /home/warren/projects/fpga/fpga_scint_reader/nano_timer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/warren/projects/fpga/fpga_scint_reader|/home/warren/projects/fpga/fpga_scint_reader/nano_timer.v|
+31
+R6
+R7
+R8
 !s101 -O0
+R9
+R10
+n@n@o@t_1
